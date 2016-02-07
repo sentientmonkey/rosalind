@@ -2,6 +2,8 @@
 
 (require rackunit)
 
+(provide dna)
+
 (define (dna-count c lst)
   (cond
     [(null? lst) 0]
